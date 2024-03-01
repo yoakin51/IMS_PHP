@@ -34,7 +34,7 @@ if ($session->isUserLoggedIn(true)) { //if user is not logged in redirect user t
       <div class="login-page">
         <div class="text-center">
           <h1>Login Panel</h1>
-          <h4>Inventory Management System</h4>
+          <h4>Nazmentory</h4>
         </div>
         <?php echo display_msg($msg); ?>
         <form method="post" action="settings/auth.php" class="clearfix">
