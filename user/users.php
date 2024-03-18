@@ -18,7 +18,7 @@ if (isset($_GET['request_id'])) {
 }
 ?>
 <?php
-// Checkin What level user has permission to view this page
+// Checkin What level user has permission to view this pag
 page_require_level(1);
 //pull out all user form database
 $all_users = find_all_user();
