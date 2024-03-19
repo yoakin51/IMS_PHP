@@ -36,7 +36,9 @@ if ($session->isUserLoggedIn(true)) { //if user is not logged in redirect user t
           <h1>Login Panel</h1>
           <h4>Nazmentory</h4>
         </div>
-        <?php echo display_msg($msg); ?>
+        <?php
+//echo out image
+echo display_msg($msg); ?>
         <form method="post" action="settings/auth.php" class="clearfix">
           <div class="form-group">
             <label for="username" class="control-label">Username</label>
